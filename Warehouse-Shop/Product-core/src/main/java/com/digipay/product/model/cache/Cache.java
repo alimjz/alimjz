@@ -6,6 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -19,8 +20,13 @@ public class Cache {
     @Autowired
     private Cache(CustomerRepository repository) {
         this.repository = repository;
+        cacheInitializer();
+    }
+
+    @PostConstruct
+    private  void cacheInitializer() {
         long start = System.currentTimeMillis();
-        List<Customer> customerList = repository.findAll();
+        List<Customer> customerList = this.repository.findAll();
         log.info("Customer Cache Initialization with " + customerList.size() + " Items.");
         for (Customer customer : customerList) {
             customerCache.add(customer.getNationalId());
