@@ -1,4 +1,4 @@
-As a Java Developer at BEHSA, a leading Telecom Vendor in Iran with 100+ million subscribers, I design and implement scalable and efficient solutions for large-scale projects. I have 6 years of experience in software development, with a bachelor's degree in computer software engineering from Islamic Azad University.
+As a Java Developer at BEHSA, a leading Telecom Vendor in Iran with 100+ million subscribers, I design and implement scalable and efficient solutions for large-scale projects. I have 6 years of experience in software development, with a bachelor's degree in computer software engineering.
 
 I excel at using Java, Spring Boot, Hibernate, JUnit, API Design, and other technologies to develop microservices. I also have experience with DevOps tools like Docker, Git, CI/CD, and Linux, and databases like MySQL, Oracle, and MongoDB. I collaborate with cross-functional teams to adopt Agile methodologies and ensure alignment with business requirements. My achievements have been recognized with awards like "Best Employee of the Year" at BEHSA. 
 
