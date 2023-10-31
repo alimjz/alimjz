@@ -7,3 +7,4 @@ I'm passionate about learning new skills and technologies, and I have completed 
 alimjz/alimjz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+![Blogger](https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white)
